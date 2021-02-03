@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="#6b8de5"
+    android:paddingLeft="22dp"
+    android:paddingRight="38dp"
+    android:paddingTop="42dp">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="2sp"
+        android:text="WELCOME TO OBSCURALIGHT"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="38dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="6sp"
+        android:text="
+Our application is a consulting service that allows you to quickly and easily obtain reliable and necessary information on any topic."
+        android:textColor="#b3ffffff"
+        android:textSize="26sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <TextView
+        android:id="@+id/already_have_an_account"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="69dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="8sp"
+        android:text="Already have an account?"
+        android:textColor="#b3ffffff"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="69dp"
+        android:layout_toEndOf="@+id/already_have_an_account"
+        android:layout_toRightOf="@+id/already_have_an_account"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="9sp"
+        android:text="SIGN IN"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/not_with_us_yet"
+        android:layout_below="@id/already_have_an_account"
+        android:layout_marginTop="96dp"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:fontFamily="sans-serif"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="6sp"
+        android:text="Not with us yet?"
+        android:textColor="#b3ffffff"
+        android:textSize="22sp"
+        android:textStyle="normal"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="111dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/already_have_an_account"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="95dp"
+        android:layout_toEndOf="@+id/not_with_us_yet"
+        android:layout_toRightOf="@+id/not_with_us_yet"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.01"
+        android:lineSpacingExtra="5sp"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>

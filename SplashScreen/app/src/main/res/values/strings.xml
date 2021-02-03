@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Splash Screen</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="you_can_sign_in_with">You can sign in with</string>
+    <string name="don_t_have_an_account">Don`t have an account ?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="i_agree_with_perms_and_privacy">I agree with Terms and Privacy</string>
+    <string name="have_an_account">Have an account ?</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+</resources>
